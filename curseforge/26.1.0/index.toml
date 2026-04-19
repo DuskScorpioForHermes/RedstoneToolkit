@@ -157,7 +157,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "1ea513f50b632920998ae301378443dce16abbb3292c807f03553591f2eead1a"
+hash = "21aa0f66659be1a33ac4f2b45123bb3f01ee8e7a5dc96579376d9bcd15d61ec2"
 metafile = true
 
 [[files]]
@@ -282,17 +282,17 @@ metafile = true
 
 [[files]]
 file = "mods/viabackwards.pw.toml"
-hash = "92d4b853855bb7fc3c0fd33f3ee1cccc3c0fbcb07765470b18241d86ab930c48"
+hash = "f3c9696b7a5fbbe31b61d114ae9a29631e207237ae093cbaa616644452f49e30"
 metafile = true
 
 [[files]]
 file = "mods/viafabric.pw.toml"
-hash = "28912d20464d1711ea8ba08d70bec644a9465e240db83a5bd1dd2ce599bffa38"
+hash = "09ca573043dedf77d0e53da8fc82fef60ca3e355a62c7721a6420366f0ff192c"
 metafile = true
 
 [[files]]
 file = "mods/viaversion.pw.toml"
-hash = "a88707ad8809ec27713d2a8835eb5512842fde8b1c6925ea55a00cc19cc1328f"
+hash = "d60e29896dcd95214efdd5c1bc89db7fb0a08940deffd37dcd5647442e5b5761"
 metafile = true
 
 [[files]]

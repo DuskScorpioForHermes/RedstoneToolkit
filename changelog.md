@@ -21,6 +21,7 @@
   - Ixeris
   - Litematica Server Paster
   - ViaBackwards
+  - ViaFabric
   - ViaVersion
   - WorldEdit Hang fix
 - 1.19.4-26.1.2:
@@ -34,6 +35,7 @@
   - Better Block Entities
   - Command Keys
   - Cubes Without Borders
+  - Lithium
   - ModernFix-mVUS
 - 26.1.2:
   - Concurrent Chunk Management Engine
