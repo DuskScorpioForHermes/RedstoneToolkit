@@ -1,13 +1,13 @@
 name = "Redstone Tweaks"
-filename = "Redstone Tweaks 2.5.3.zip"
+filename = "Redstone Tweaks 2.0.1.zip"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "83e0af003e1ccbe1f08bdce2cdbdbe1156809a95"
+hash = "c45195da67ef34fb8b866ca0bd9820882e6daf80"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7328778
+file-id = 3541162
 project-id = 548744

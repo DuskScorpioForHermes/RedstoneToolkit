@@ -26,11 +26,6 @@ hash = "af08dfbacc0bc494131c9520d3f37df3b2ee70cf50eee09455af3d5868c2a9da"
 metafile = true
 
 [[files]]
-file = "mods/c2me-fabric.pw.toml"
-hash = "56ec543d9582ea49acef78b52950b2662f8448871bc5faaefec1692838947436"
-metafile = true
-
-[[files]]
 file = "mods/c2me.pw.toml"
 hash = "9ab89208b7f08253eae4f2e0f3b77c27e9559f737261d74818f47063515e2db9"
 metafile = true
@@ -67,7 +62,7 @@ metafile = true
 
 [[files]]
 file = "mods/client-commands.pw.toml"
-hash = "30578f768a0a1c430b164b58b8410c3adeb3909d93f1929e1086d74a0e676671"
+hash = "ee353c9038fa9e8133d5dc52cae3b4d45649cba880fb4d0c5c0a2468b85db882"
 metafile = true
 
 [[files]]
@@ -77,7 +72,7 @@ metafile = true
 
 [[files]]
 file = "mods/commandkeys.pw.toml"
-hash = "57f632ac394454991e2c0e063aaca36f20b97904ac2eebee33ddbe6891a0479a"
+hash = "62336d6884fb9f08eb6245b4949580d8f8ca611148c35bdf0ac78714091658c9"
 metafile = true
 
 [[files]]
@@ -96,11 +91,6 @@ hash = "d3f5b5d5d479cab48212ae1419d5fff3532a6cb90f152563678843aaad482344"
 metafile = true
 
 [[files]]
-file = "mods/dcwa.pw.toml"
-hash = "c7aa2123dc093558b6830e3b126e8fb9237eb8ddaa0d8b6bddd125f4ee3e2999"
-metafile = true
-
-[[files]]
 file = "mods/doormat.pw.toml"
 hash = "6a4bb09a4df14f617a85c2e7d88d19d4dc266cde35866ad55168a22319c371da"
 metafile = true
@@ -108,11 +98,6 @@ metafile = true
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
 hash = "0664ca3a7ee4a3448c5044bd3651420691c6d9b8744d9cb17e348b51c52c9c9f"
-metafile = true
-
-[[files]]
-file = "mods/ebe.pw.toml"
-hash = "f3409527b8a1065e17e2e86bcf84538957c306c6cb4715cfb1113f85950e68c6"
 metafile = true
 
 [[files]]
@@ -128,11 +113,6 @@ metafile = true
 [[files]]
 file = "mods/essentialaddons.pw.toml"
 hash = "194ee1b847cacdee7687131d8672e96c9865f9ce9ed6024edf883ce408baa32b"
-metafile = true
-
-[[files]]
-file = "mods/essentialclient.pw.toml"
-hash = "fe9b3bb23531114cb9093689d75a60863bdebe5192471ccf8b8303a5c91f2bdf"
 metafile = true
 
 [[files]]
@@ -162,7 +142,7 @@ metafile = true
 
 [[files]]
 file = "mods/ferrite-core.pw.toml"
-hash = "1e2c8cc17038e3f8b1abaf0b0ca2b0b72734349c95b37c86ea4b817d29a783f0"
+hash = "d88352f607700aed0db6a0679d4a2a2eaba2a83d38696ca966c2dace0a32f2b7"
 metafile = true
 
 [[files]]
@@ -198,16 +178,6 @@ metafile = true
 [[files]]
 file = "mods/inv-view.pw.toml"
 hash = "4ba7ce0edce136ec83a18c39fd3d370366395432922f04da3720584f706082ed"
-metafile = true
-
-[[files]]
-file = "mods/invview.pw.toml"
-hash = "7f067e5e50da561ca0ebe73fb1761833f184698752ad9686574d091c7c115afb"
-metafile = true
-
-[[files]]
-file = "mods/iris.pw.toml"
-hash = "62def7ce2981026261dfd10797733764788d6a73ef6a3438276ed88f573fc92a"
 metafile = true
 
 [[files]]
@@ -292,7 +262,7 @@ metafile = true
 
 [[files]]
 file = "mods/moreculling.pw.toml"
-hash = "2e2eecce5dfd3a543e45cf1238df6f48dd35f0334bac5ca520c69690612944c0"
+hash = "06d0708b2f778731f7520021f2f3c2284a347fd6679f0227e97fea4140b374a8"
 metafile = true
 
 [[files]]
@@ -382,7 +352,7 @@ metafile = true
 
 [[files]]
 file = "mods/syncmatica.pw.toml"
-hash = "1b8abe532d290322f536802ab5e8b428d542ca859dcd39275b8d712cfa4bab7a"
+hash = "7aeb9e2d53edb73844a4b2dda15757af35edfeac2d1137b0745a6d0f66989ba4"
 metafile = true
 
 [[files]]
@@ -426,11 +396,6 @@ hash = "f1845133f1c212416bc8e072d2bda067a62cb6e667acfd146f6ab3be43e73e13"
 metafile = true
 
 [[files]]
-file = "mods/worldedit-cui.pw.toml"
-hash = "f66275b464b4f7b9f08da6a6653f531b261beab9124a3f12e9f00fb93e98709e"
-metafile = true
-
-[[files]]
 file = "mods/worldedit-hang-fix.pw.toml"
 hash = "e534f58c17eb1c0843fa81be8701af111de809ed95d14e0c2c6e3baf3bb26902"
 metafile = true
@@ -462,5 +427,5 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/redstone-tweaks.pw.toml"
-hash = "a2bbab68ce7c62b5002a2c3c0a10b31190a8b44a39efb6d0eb3870bc65532ca8"
+hash = "06d914b90808e305b2155687dca11453bd2c3ef5003f300b949e9ed06a4f2a9b"
 metafile = true

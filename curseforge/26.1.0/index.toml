@@ -86,11 +86,6 @@ hash = "3cb99d987c4a07d129106e4f9cca72955b033ac4b1849da83e20af17842a2ac5"
 metafile = true
 
 [[files]]
-file = "mods/essentialclient.pw.toml"
-hash = "e8254a2390aba10d30f4c697d2b20aaaa87460d6d5a38bcbf6a977954a5ee861"
-metafile = true
-
-[[files]]
 file = "mods/fabric-api.pw.toml"
 hash = "65136e76cb26fd7113b886e926b60b84e3e5daaebe6fc313fd0cc56bc528acd0"
 metafile = true
@@ -137,7 +132,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "c9a661d4865d0ba5d2b6356141c6e7ad6246586aa5224d482c23bf309b6bdc3a"
+hash = "33801cfba7d9b16f2c774e030add3f9915c21b019e24e4d160b65d32d44da4d2"
 metafile = true
 
 [[files]]
@@ -257,7 +252,7 @@ metafile = true
 
 [[files]]
 file = "mods/subtick.pw.toml"
-hash = "805cddd42eff2e92b296962efe06972cac1414dcea38227188f1f5c65d480b44"
+hash = "67f345f0e5060913e3c53b04b89f3fdbe02700b9f525a4e78b1dd4461d8e9aee"
 metafile = true
 
 [[files]]
@@ -337,5 +332,5 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/redstone-tweaks.pw.toml"
-hash = "98a89237c10b7608fcc9b6978a4aeacc1b16e104a6a2e41f390050b6515595c6"
+hash = "f236314ce994000a734da590e11ec2ba90cb49b9de3a9f029974af9497c93c74"
 metafile = true

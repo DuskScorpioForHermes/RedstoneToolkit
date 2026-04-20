@@ -126,11 +126,6 @@ hash = "93a5c2f829c491cf8628c83767a687bc88c5401a71b5c878be73d74209b2bf24"
 metafile = true
 
 [[files]]
-file = "mods/essentialclient.pw.toml"
-hash = "252e8af7a2b21f5ada18f2aa012e0fa0877d0fee976384fdd64cdc2eb2c62bfd"
-metafile = true
-
-[[files]]
 file = "mods/fabric-api.pw.toml"
 hash = "8405864febccfb3af46c53983eeb8f69a985aaa1123f46b199fbe75fe908472c"
 metafile = true
@@ -467,5 +462,5 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/redstone-tweaks.pw.toml"
-hash = "9360f16158d014416971036ff6c090f840db44321413012523c938b9756c8d41"
+hash = "40ca731b901a7aef9e41bd2df048580d699fefc972245b8e51e8fb02b6b7c558"
 metafile = true

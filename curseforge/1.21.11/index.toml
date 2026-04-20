@@ -26,11 +26,6 @@ hash = "2299a5548709d785107357dfaf49c42dbea779e64518d125cb37b311fd4bada6"
 metafile = true
 
 [[files]]
-file = "mods/c2me-fabric.pw.toml"
-hash = "bc1569456f4e153e5df7785ec4a533d5cd33b2ac1229fd83cdb08ce7c44dabad"
-metafile = true
-
-[[files]]
 file = "mods/c2me.pw.toml"
 hash = "a54ddfc8addfec04d04a7856099ac0fb2c36518bb2faa9e672e95e7c1d5c114f"
 metafile = true
@@ -111,11 +106,6 @@ hash = "324f951d42a4f4bea84562dd77ddbe91bd588c337cb0685ae2663cfb2a85f20d"
 metafile = true
 
 [[files]]
-file = "mods/essentialclient.pw.toml"
-hash = "8ba8905e9082dcb32d107d69b9f5982e89de03a758e5110029100aaf08490385"
-metafile = true
-
-[[files]]
 file = "mods/fabric-api.pw.toml"
 hash = "6a9e19fada33c165b2aafa879179fb45de0eeb039bb0f4e9ca6bdb678441a656"
 metafile = true
@@ -137,7 +127,7 @@ metafile = true
 
 [[files]]
 file = "mods/ferrite-core.pw.toml"
-hash = "809b4169d72d4d004b30d18011e7ebc2037d1ed0d3ba15956d88c2ac914567d5"
+hash = "816b735b2ad505476201800a99f527e61b392b712b9d20ca9edcce05f412fe87"
 metafile = true
 
 [[files]]
@@ -168,16 +158,6 @@ metafile = true
 [[files]]
 file = "mods/inv-view.pw.toml"
 hash = "c02e9c64b54b5e0a5b537564a7e2771bf41850e0c4f0aba9c780782043b06b4b"
-metafile = true
-
-[[files]]
-file = "mods/invview.pw.toml"
-hash = "c4b8bff059280b88e4472816f3e4834cf6a556d0cc111288adf9521a43785018"
-metafile = true
-
-[[files]]
-file = "mods/iris.pw.toml"
-hash = "c10fa51edd36370e1a126d3c8f8716bc78b5ce812403dafb6546e73642e46dbd"
 metafile = true
 
 [[files]]
@@ -218,11 +198,6 @@ metafile = true
 [[files]]
 file = "mods/lithium.pw.toml"
 hash = "aff4aa2f11b20a4535e9a794c3fb316d86ae7ab5e6350bd21ec202784ea1fe9c"
-metafile = true
-
-[[files]]
-file = "mods/malibind.pw.toml"
-hash = "d3cd39bfb3f8bdc30f60bfb4359931d85986ca7447d37c56ba59b0d620a1e175"
 metafile = true
 
 [[files]]
@@ -401,11 +376,6 @@ hash = "10f0866e2d0b13b133486b242461deb50cf7ea7fc1e80ce203940be9baafa008"
 metafile = true
 
 [[files]]
-file = "mods/worldedit-cui.pw.toml"
-hash = "8aea9229ab3b30b7c066b226de6b38585449467843aeb0cdc6a7f62d1a3dc1db"
-metafile = true
-
-[[files]]
 file = "mods/worldedit-hang-fix.pw.toml"
 hash = "e534f58c17eb1c0843fa81be8701af111de809ed95d14e0c2c6e3baf3bb26902"
 metafile = true
@@ -437,5 +407,5 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/redstone-tweaks.pw.toml"
-hash = "31b53c71c2bf08da156167befe54b5717e71ee871e10ef78a70967a0bdc8b56b"
+hash = "0f4bb2ec47366e11f3d05b2bdd656a19a007247830cca79178e0426bff2b5b82"
 metafile = true
