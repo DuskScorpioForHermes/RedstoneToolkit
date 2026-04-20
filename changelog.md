@@ -14,6 +14,8 @@
 
 ## Changes
 
+- Removed EssentialClient for Curseforge modpack
+
 ## Updates
 
 - 1.16.5-1.21.11:
