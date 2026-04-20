@@ -77,7 +77,12 @@ def remove_file(platform: PlatForm, mc_dir: str, data: dict, reinstall: bool):
         from_dict = __get_from_dict(path)
         for meta in meta_list:
             for slug in [MR, CF, NAME]:
-                if platform == PlatForm.CURSEFORGE and meta.get(CF_SKIP, False): continue
+
+                # sb curseforge
+                if platform == PlatForm.CURSEFORGE:
+                    cf_condition: str | None = meta.get(CF_SKIP)
+                    if not cf_condition is None and util.check_match(cf_condition, mc_dir): continue
+
                 name: str | None = meta.get(slug)
                 if name is None or not name.lower() in remove_ids: continue
                 match = meta.get("version", "*")

@@ -138,7 +138,7 @@ enabled_files:
   # Technical
   - mr_slug: chunk-debug
   - mr_slug: essentialclient
-    cf_skip: true
+    cf_skip: "*"
   - mr_slug: g4mespeed
     cf_slug: g4mespeed
   - mr_slug: litematica

@@ -45,8 +45,12 @@ class Install:
         ).get_log()
 
     def install(self):
-        if self.platform == PlatForm.CURSEFORGE and self.mod_meta.get(CF_SKIP, False):
-            return
+
+        # sb curseforge
+        if self.platform == PlatForm.CURSEFORGE:
+            cf_condition: str | None = self.mod_meta.get(CF_SKIP)
+            if not cf_condition is None and util.check_match(cf_condition, self.mc_ver): return
+
         if not util.check_match(self.mod_meta.get("version", "*"), self.mc_ver):
             return
         mod_name = self.__install()
