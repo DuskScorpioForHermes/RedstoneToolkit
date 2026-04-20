@@ -255,6 +255,6 @@ disabled_files:
   - mr_slug: worldedit-cui
     cf_slug: worldeditcui-fabric
 
-resource_file:
+resource_files:
   - mr_slug: redstone-tweaks
     cf_slug: redstone-tweaks
