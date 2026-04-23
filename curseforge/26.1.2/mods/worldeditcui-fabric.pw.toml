@@ -1,0 +1,12 @@
+name = "WorldEdit CUI (Fabric)"
+filename = "WorldEditCUI-26.1.1+01.jar.disabled"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "681144303ab33550102bd37c084cd5a148d99e4a"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 7894443
+project-id = 402098

@@ -1,12 +1,12 @@
 name = "ViaBackwards"
-filename = "ViaBackwards-5.9.0.jar.disabled"
+filename = "ViaBackwards-5.9.1-SNAPSHOT.jar.disabled"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/NpvuJQoq/versions/HDbyDR7L/ViaBackwards-5.9.0.jar"
+url = "https://cdn.modrinth.com/data/NpvuJQoq/versions/1ImS09ar/ViaBackwards-5.9.1-SNAPSHOT.jar"
 hash-format = "sha512"
-hash = "2097532e71fecea5e76ed1c086c6b266924c89c816ed39382305f35ff18f4ecb0e5d3ec290fd143b10d106b2272c6c7a1b9a7274fa229a209459cf9b468f0663"
+hash = "2c264c35aac09e0dad354624081ab49f8d3adb1c2e54ea0bb8380ba06e42d159acbf8eead4c35cce44b72b0fafd80bcbc9f17190770f5f049cacb82cf485b355"
 
 [update.modrinth]
 mod-id = "NpvuJQoq"
-version = "HDbyDR7L"
+version = "1ImS09ar"

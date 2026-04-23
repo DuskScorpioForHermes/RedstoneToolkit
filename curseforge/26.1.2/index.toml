@@ -91,6 +91,11 @@ hash = "151e599df2c5f3df4234f50a3a6df42add337c8aaecb1a7d71340fe12f2482ca"
 metafile = true
 
 [[files]]
+file = "mods/fabrishot.pw.toml"
+hash = "6cde98be85a9b158be163a976464dc1b5c42c0300ac555f423e1211a02061dd4"
+metafile = true
+
+[[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "069d81cab53c0141459ad4d70bcf3e10f17652f24cc62d3b4a0fc2cd2b700871"
 metafile = true
@@ -128,6 +133,11 @@ metafile = true
 [[files]]
 file = "mods/ixeris.pw.toml"
 hash = "33801cfba7d9b16f2c774e030add3f9915c21b019e24e4d160b65d32d44da4d2"
+metafile = true
+
+[[files]]
+file = "mods/krypton.pw.toml"
+hash = "d5060b22fa47d5d56e0f4617904731e9d397d1ba104320b7ec8e59f7ca0700a7"
 metafile = true
 
 [[files]]
@@ -272,7 +282,7 @@ metafile = true
 
 [[files]]
 file = "mods/viabackwards.pw.toml"
-hash = "f3c9696b7a5fbbe31b61d114ae9a29631e207237ae093cbaa616644452f49e30"
+hash = "68b697e910821f18c3023aa9105fcc88c29cc150b1570263ff6bc4dd2acd3bee"
 metafile = true
 
 [[files]]
@@ -282,7 +292,7 @@ metafile = true
 
 [[files]]
 file = "mods/viaversion.pw.toml"
-hash = "d60e29896dcd95214efdd5c1bc89db7fb0a08940deffd37dcd5647442e5b5761"
+hash = "c49524e48409fa3de0e2cdd72d94f1754c6a9c7d96953503ac97efa2b88e38a5"
 metafile = true
 
 [[files]]
@@ -292,7 +302,7 @@ metafile = true
 
 [[files]]
 file = "mods/wikirenderer.pw.toml"
-hash = "5b1cd91c9a9bc4dab851beab4b253853e12245885541a4229d45fbe60775668f"
+hash = "a25314118a2e144fef6f217f092ccfece65169f62902bc986a3cb1eb7a73d559"
 metafile = true
 
 [[files]]
@@ -303,6 +313,11 @@ metafile = true
 [[files]]
 file = "mods/worldedit.pw.toml"
 hash = "0dd3e6b553017935decd257920ec0a6d31b1b167da8ccba49f506d2c7b7b95be"
+metafile = true
+
+[[files]]
+file = "mods/worldeditcui-fabric.pw.toml"
+hash = "882dead400e29664ba8a3359809f7ac28dec93afed9e490b1a3eaf23072a89aa"
 metafile = true
 
 [[files]]

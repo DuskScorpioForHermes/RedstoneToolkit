@@ -2,9 +2,12 @@
 
 - Added more newly compatible mods to:
   - 26.1-26.1.2:
+    - Fabrishot
+    - Krypton
     - Litematica Server Paster
     - WorldEdit Hang Fix
   - 26.1.2
+    - WorldEdit CUI
     - Worldthreader
   - 26.2-snapshot-3
     - Carpet Igny Addition
