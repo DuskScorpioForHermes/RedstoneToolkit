@@ -48,8 +48,9 @@ class Install:
 
         # sb curseforge
         if self.platform == PlatForm.CURSEFORGE:
-            cf_condition: str | None = self.mod_meta.get(CF_SKIP)
-            if not cf_condition is None and util.check_match(cf_condition, self.mc_ver): return
+            if CF not in self.mod_meta: return
+            cf_skip = self.mod_meta.get(CF_SKIP)
+            if cf_skip is not None and util.check_match(cf_skip, self.mc_ver): return
 
         if not util.check_match(self.mod_meta.get("version", "*"), self.mc_ver):
             return
@@ -58,12 +59,6 @@ class Install:
             self.__disable(mod_name)
         else:
             self.__enable(mod_name)
-        # tomil-w changes something, so it needs to be refreshed
-        with Popen([PACKWIZ, "refresh"], cwd=self.path, stdout=PIPE, stderr=STDOUT, text=True, bufsize=1) as process:
-            log = logutil.Logger(name=f"install/{self.mc_ver}").get_log()
-            for e in process.stdout:
-                log.info(e.strip())
-            process.wait()
 
     def __install(self) -> str:
         name_list = []
@@ -72,7 +67,7 @@ class Install:
             MR: "mr",
             CF: "cf",
             PlatForm.MODRINTH: [MR, CF],
-            PlatForm.CURSEFORGE: [CF, MR]
+            PlatForm.CURSEFORGE: [CF] # Curseforge does not allow the installation of mods for other platforms :(
         }
         for i in platform_map.get(self.platform):
             if i in self.mod_meta:
@@ -84,7 +79,7 @@ class Install:
                     return mod_name
                 name_list.append(mod_name)
 
-        if URLS in self.mod_meta:
+        if URLS in self.mod_meta and self.platform != PlatForm.CURSEFORGE:
             mod_name: str = self.mod_meta.get(NAME)
             if self.__is_installed(mod_name.lower()):
                 return mod_name.lower()

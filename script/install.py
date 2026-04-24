@@ -61,6 +61,14 @@ def __install(platform: PlatForm, mc_dir: str, data: dict):
         )
         install.install()
 
+    # tomil-w changes something, so it needs to be refreshed
+    path = Path(platform).joinpath(mc_dir)
+    with Popen([PACKWIZ, "refresh"], cwd=path, stdout=PIPE, stderr=STDOUT, text=True, bufsize=1) as process:
+        log = logutil.Logger(name=f"install/{mc_dir}").get_log()
+        for e in process.stdout:
+            log.info(e.strip())
+        process.wait()
+
 
 def remove_file(platform: PlatForm, mc_dir: str, data: dict, reinstall: bool):
     log = logutil.Logger(f"install/({platform}/{mc_dir})").get_log()
@@ -77,17 +85,19 @@ def remove_file(platform: PlatForm, mc_dir: str, data: dict, reinstall: bool):
         from_dict = __get_from_dict(path)
         for meta in meta_list:
             for slug in [MR, CF, NAME]:
-
-                # sb curseforge
-                if platform == PlatForm.CURSEFORGE:
-                    cf_condition: str | None = meta.get(CF_SKIP)
-                    if not cf_condition is None and util.check_match(cf_condition, mc_dir): continue
+                # check cf_skip
+                if  platform == PlatForm.CURSEFORGE:
+                    cf_skip = meta.get(CF_SKIP)
+                    if cf_skip is not None and util.check_match(cf_skip, mc_dir): continue
 
                 name: str | None = meta.get(slug)
                 if name is None or not name.lower() in remove_ids: continue
                 match = meta.get("version", "*")
                 if not util.check_match(match, mc_dir): continue
-                if reinstall and from_dict.get(name.lower()).value != platform: continue
+
+                # cf need remove other platform
+                if (reinstall or platform == PlatForm.CURSEFORGE) and from_dict.get(name.lower()).value != platform: continue
+
                 remove_ids.remove(name.lower())
         for remove_name in remove_ids:
             with Popen(
