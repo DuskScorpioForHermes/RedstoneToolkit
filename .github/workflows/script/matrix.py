@@ -1,7 +1,8 @@
 from enum import StrEnum, auto
 from pathlib import Path
-from github import Github, Auth
+from github import Github, Auth # noqa
 from semantic_version import Version
+from functools import cache
 
 import os
 import re
@@ -25,20 +26,10 @@ class DataType(StrEnum):
     SHOULD_CREATE = auto()
 
 
-class Cache(StrEnum):
-    TAGS = auto()
-    ASSETS = auto()
-
-
 class Matrix:
     def __init__(self):
         self.token: str | None = os.getenv("GH_TOKEN")
         self.repository: str = os.getenv("GITHUB_REPOSITORY", "DuskScorpio/RedstoneToolkit")
-
-        self.cache = {
-            Cache.TAGS: self.read_tags(),
-            Cache.ASSETS: dict()
-        }
 
         self.data = {
             DataType.CREATE: list(),
@@ -114,32 +105,31 @@ class Matrix:
         with open("data.json", "w", encoding="utf-8") as f:
             json.dump(self.data, f)
 
-    def read_tags(self) -> list[str]:
-        with Github(auth=self.get_auth()) as g:
-            repo = g.get_repo(self.repository)
-            return [i.tag_name for i in repo.get_releases()]
-
-    def get_assets(self, ver: str) -> list[str]:
-        if ver in self.cache[Cache.ASSETS]:
-            return self.cache[Cache.ASSETS][ver]
-        elif not self.tag_exists(ver):
-            return list()
-        else:
-            tag = f"release/{ver}"
-            with Github(auth=self.get_auth()) as g:
-                repo = g.get_repo(self.repository)
-                assets = [i.name for i in repo.get_release(tag).assets]
-                self.cache[Cache.ASSETS][ver] = assets
-                return assets
-
     def tag_exists(self, ver: str) -> bool:
-        return f"release/{ver}" in self.cache[Cache.TAGS]
+        return f"release/{ver}" in self.read_tags()
+
 
     def get_auth(self) -> Auth.Token | None:
         if self.token is None:
             return None
         else:
             return Auth.Token(self.token)
+
+    @cache
+    def read_tags(self) -> list[str]:
+        with Github(auth=self.get_auth()) as g:
+            repo = g.get_repo(self.repository)
+            return [i.tag_name for i in repo.get_releases()]
+
+    @cache
+    def get_assets(self, ver: str) -> list[str]:
+        if not self.tag_exists(ver):
+            return list()
+        else:
+            tag = f"release/{ver}"
+            with Github(auth=self.get_auth()) as g:
+                repo = g.get_repo(self.repository)
+                return [i.name for i in repo.get_release(tag).get_assets()]
 
 
 if __name__ == "__main__":
