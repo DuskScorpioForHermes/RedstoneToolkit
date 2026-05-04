@@ -50,7 +50,9 @@ def process_log(process: Popen[str], version: str, platform: PlatForm):
                     write=True,
                     log_name=f"{platform}-{version}-update.log"
                 ).get_log()
-                mod_id = name_dict[match.group().strip()[:-1]]
+                name_for_output = match.group().strip()[:-1]
+                # Some mods like to use strange names that cause them to not be parsed properly and return the original data
+                mod_id = name_dict.get(name_for_output, name_for_output)
                 log_2.info("{} update completed!".format(mod_id))
 
 
