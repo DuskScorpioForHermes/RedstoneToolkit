@@ -7,13 +7,10 @@
     - Fabrishot
     - Hold That Chunk V2
     - Krypton
-    - Litematica Server Paster
     - Sound Controller
     - Unobtainable Blocks
-    - WorldEdit Hang Fix
   - 26.1.2
     - WorldEdit CUI
-    - Worldthreader
 
 ## Changes
 
@@ -25,18 +22,14 @@
   - Carpet TIS Addition
   - Fabric Language Kotlin
   - Ixeris
-  - Litematica Server Paster
   - ViaBackwards
   - ViaFabric
   - ViaVersion
-  - WorldEdit Hang fix
 - 1.19.4-26.1.2:
-  - CarpetGUI
   - Carpet IGNY Addition
 - 1.20.6-26.1.2:
   - Axiom
 - 1.21.11-26.1.2:
-  - Fast Noise
   - Better Block Entities
   - Item Scroller
   - Litematica
@@ -46,18 +39,12 @@
   - Tweakeroo
   - WikiRenderer
 - 26.1-26.1.2:
-  - Axiom
-  - Command Keys
-  - Cubes Without Borders
   - Fabric API
   - Lithium
-  - ModernFix-mVUS
   - More Culling
   - WorldEdit
 - 1.21.0:
   - owo-lib
-- 26.1:
-  - SubTick
 - 26.1.2:
   - Concurrent Chunk Management Engine
   - Respackopts
