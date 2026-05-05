@@ -31,11 +31,6 @@ hash = "cb94dce244f92b2f273de8fa304fafd34f7e6552edb7bd900013a6be46342d6e"
 metafile = true
 
 [[files]]
-file = "mods/chunk-debug.pw.toml"
-hash = "ef7a72bb2ca63cb08019f568f579265fa8e45850e855ef35f7f9e622cdf24b42"
-metafile = true
-
-[[files]]
 file = "mods/clear-despawn-fabric.pw.toml"
 hash = "7ec4f3615cde3afd02cba790c49312a39c85b8a0c55ab1c53a901685619bb94f"
 metafile = true
@@ -68,11 +63,6 @@ metafile = true
 [[files]]
 file = "mods/entityculling.pw.toml"
 hash = "643c8fbb9d6079f84d7892bed03fe0520114b649c4207a7ab6a8cbbe3e541219"
-metafile = true
-
-[[files]]
-file = "mods/essentialaddons.pw.toml"
-hash = "586815466e86e1e16d0ad4db018321c1f526feb6a1655b218f8f51822efa6e3e"
 metafile = true
 
 [[files]]
@@ -171,11 +161,6 @@ hash = "e601ece468c4740f11625d9e75b6a5b94f1499b3c97296faa10340b3de9458d5"
 metafile = true
 
 [[files]]
-file = "mods/masaadditions.pw.toml"
-hash = "b66d2a10268d7dfdc04f800f0016330677bcf12f607f0725b7cf96fc06d38e04"
-metafile = true
-
-[[files]]
 file = "mods/minihud.pw.toml"
 hash = "127c965dc6916299b70abb1f5d376df3b5cac3dcf8c6f44c0aa6ddce7f59a857"
 metafile = true
@@ -266,23 +251,8 @@ hash = "1aa549c1ca077e291285ab3bae72b0131b52f7eb060b0263f50a028f0a366718"
 metafile = true
 
 [[files]]
-file = "mods/viabackwards.pw.toml"
-hash = "5dac8a880f715cd8f6a4c48118a01160a1fc0c0a35e6e901172ec50030f0d90d"
-metafile = true
-
-[[files]]
 file = "mods/viafabric.pw.toml"
 hash = "18474d0489552186c898ec2c29344c8e8fd3916d8033de0f4ea95abcf6a57951"
-metafile = true
-
-[[files]]
-file = "mods/viaversion.pw.toml"
-hash = "c1c34424855ae7bd265e90729c3fb959e4605e425e40473ae7bbe2bbc2cef206"
-metafile = true
-
-[[files]]
-file = "mods/vkm.pw.toml"
-hash = "d71e334168b4b616cf8c1ab4cc406c0fbab037cfd75789a48d4144d580cd7d92"
 metafile = true
 
 [[files]]

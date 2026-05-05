@@ -36,18 +36,8 @@ hash = "ce68fe066c471b3a2c503e694c3b88581ad5af3e509f8c5cf672adeb1adf11f2"
 metafile = true
 
 [[files]]
-file = "mods/chunk-debug.pw.toml"
-hash = "2adeb31ad0140679873ee02baa6458c924c5e3814a105c1f9e98cac464fb5f43"
-metafile = true
-
-[[files]]
 file = "mods/clear-despawn-fabric.pw.toml"
 hash = "5251875f9ff7cdeac3adf002d921bf7aa9f9c23b7e82fa82de18a449dedf018d"
-metafile = true
-
-[[files]]
-file = "mods/client-commands.pw.toml"
-hash = "4f8584269721f9763e1630c9f756648e1ad71613136d58962a2ed4b488a5d5f0"
 metafile = true
 
 [[files]]
@@ -86,11 +76,6 @@ hash = "b7eff661448c0025e3160a025e0f92db66d4a8d18e0b9ce77a7c8c22cc737850"
 metafile = true
 
 [[files]]
-file = "mods/essentialaddons.pw.toml"
-hash = "ad0d3b03e19fb6a88672873326a71b1d14754440d603ebf9efbe9507865f449e"
-metafile = true
-
-[[files]]
 file = "mods/fabric-api.pw.toml"
 hash = "5891b0abfeb425c52088869d62543d9f4630eda5b6b7d95bad761fa60a934e1e"
 metafile = true
@@ -108,21 +93,6 @@ metafile = true
 [[files]]
 file = "mods/fabrishot.pw.toml"
 hash = "dd7244634d411e26f55d975b6975759bbdf3268cd42eff00fd6843db6250c4d6"
-metafile = true
-
-[[files]]
-file = "mods/fastquit.pw.toml"
-hash = "becab9c4bef60820d4f99eb274635cb151992fe57a6c06e874b3956337108af9"
-metafile = true
-
-[[files]]
-file = "mods/ferrite-core.pw.toml"
-hash = "07f15bd07ec3c70f2196cb30c0cdcba681eb7afdc6489d0530826593d0dafb87"
-metafile = true
-
-[[files]]
-file = "mods/forcecloseworldloadingscreen.pw.toml"
-hash = "68c3e2aa2cde986b263748a7a1a2582d7de4979e2d91270a593c11884c97fed6"
 metafile = true
 
 [[files]]
@@ -171,11 +141,6 @@ hash = "5135ccf862c13b72f5273d0587ecf3f79326a84f20c1105b708707c071d0e184"
 metafile = true
 
 [[files]]
-file = "mods/joacarpet.pw.toml"
-hash = "f0d634be7dc0cc11adf725c0c1fba0ada40f9283deb2de0b13bc7d16ba228661"
-metafile = true
-
-[[files]]
 file = "mods/krypton.pw.toml"
 hash = "2846c36f482f25a522d648da964512e0231d59210816cdd7a56783d344fa1ec4"
 metafile = true
@@ -208,11 +173,6 @@ metafile = true
 [[files]]
 file = "mods/masa-gadget.pw.toml"
 hash = "3f1e9ad58948fdb753757f1106d58c03291df2f93e7d4c8e74a81743587cde0e"
-metafile = true
-
-[[files]]
-file = "mods/masaadditions.pw.toml"
-hash = "d623c3ed622cc427c748223a9dbda6c730276c19ca040ae92d5463ab1b8001c4"
 metafile = true
 
 [[files]]
@@ -311,11 +271,6 @@ hash = "77145a799af2998632df9e1fd005ffc276f2cf49b153a0f221096c6bd9f89fa0"
 metafile = true
 
 [[files]]
-file = "mods/subtick.pw.toml"
-hash = "7b8d2454dbf99c87555626991697597b931ceed28f4a4430f1d5c4a8fe97d24f"
-metafile = true
-
-[[files]]
 file = "mods/suggestion-tweaker.pw.toml"
 hash = "ccc737ce5f392bdaf6b2fba1f62ac23ccda5690b61b967f534b150a047cc55ed"
 metafile = true
@@ -341,23 +296,8 @@ hash = "cb5e5c012f6f647c38ab1eceecc9029ad1ef3f36a362b1c9115c6a5122b88455"
 metafile = true
 
 [[files]]
-file = "mods/viabackwards.pw.toml"
-hash = "5dac8a880f715cd8f6a4c48118a01160a1fc0c0a35e6e901172ec50030f0d90d"
-metafile = true
-
-[[files]]
 file = "mods/viafabric.pw.toml"
 hash = "18474d0489552186c898ec2c29344c8e8fd3916d8033de0f4ea95abcf6a57951"
-metafile = true
-
-[[files]]
-file = "mods/viaversion.pw.toml"
-hash = "c1c34424855ae7bd265e90729c3fb959e4605e425e40473ae7bbe2bbc2cef206"
-metafile = true
-
-[[files]]
-file = "mods/vkm.pw.toml"
-hash = "012addbf5f34979830a1665e34c323f2404216905f9bbc87ed3a3a615112db7c"
 metafile = true
 
 [[files]]
