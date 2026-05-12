@@ -2,12 +2,12 @@ hash-format = "sha256"
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "7acb6d1c56d6dd442c6fc285156e1df8ae538f2d7ca570762d3574a1eaf340c8"
+hash = "cf7a7253a946956421e65e98172034500b58b99da7449e117f51fadf0afd1f41"
 metafile = true
 
 [[files]]
 file = "mods/carpet-igny-addition.pw.toml"
-hash = "b7060360ea56cb292057c9377de75d64d54e661f66f692b9b83e0bd051675944"
+hash = "922298fab0c74012cc922c3879f2a52d549b22061cd3c312380d078418827254"
 metafile = true
 
 [[files]]
@@ -22,7 +22,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "ae5824b94bcb04685c7a330303bc220a0f2b552fc0ff3ba2331aed75f5120e0f"
+hash = "42e9c39c96b97c6fe4af97f57fbfa17ac66ed84937c29ff45cff84eef373dbf4"
 metafile = true
 
 [[files]]
@@ -36,11 +36,16 @@ hash = "7860b78acecb90a1c7fca845bee005e724bfe366c977553cd2735a95bf5acf94"
 metafile = true
 
 [[files]]
+file = "mods/modmenu.pw.toml"
+hash = "3ab2d8770984e1e080cc515dd9fa57491032010451144ff098e2ddfc307c0058"
+metafile = true
+
+[[files]]
 file = "mods/yacl.pw.toml"
 hash = "30a6d822ff13f5e1a4704df711906d7e2a55f4718b97998670b3b8fbdcd58694"
 metafile = true
 
 [[files]]
 file = "mods/zfastnoise.pw.toml"
-hash = "b7c858c184f8e6bb88db7c3154f6d1ceba1bd4b9ffcd1aac38631399bd949269"
+hash = "e5cd9c84ae80fe011cc7358345191dfa13e803a6affbc677360068c86d65f933"
 metafile = true

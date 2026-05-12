@@ -1,7 +1,7 @@
 ## News
 
-## Changes
+- Added 26.2-snapshot-6
 
-- Removed Modrinth mods from Curseforge modpack (1.16.5-1.20.6)
+## Changes
 
 ## Updates
