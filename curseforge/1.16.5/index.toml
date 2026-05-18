@@ -122,7 +122,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "d2b4ae3d28c531de909cde91d529928f8642d238de6eb5d06a5d0c6397437d87"
+hash = "2935fa7413ed1002a981100f80b3aa7e5de8d8933bf2a48691594c380cc18b6c"
 metafile = true
 
 [[files]]
@@ -147,7 +147,7 @@ metafile = true
 
 [[files]]
 file = "mods/magiclib.pw.toml"
-hash = "cb71b7d0e4a9029d5e26d6a2001e59ee19096faf6f7f1f52e4893ed9bdf9fe62"
+hash = "140bb61c528483178410c18d9c0d75a178ec30cec06faf116fffac3165e7d588"
 metafile = true
 
 [[files]]

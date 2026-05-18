@@ -42,7 +42,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-igny-addition.pw.toml"
-hash = "f0d0729a4a29e6b5f2489f9d3b77e6fe30e67786cd737792403950070c5ed1cc"
+hash = "06b0cecdc53bbae6fd674889d20ed2b56e9f87c6f1866b9109a0459b91da2b2b"
 metafile = true
 
 [[files]]
@@ -162,7 +162,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "8758bea7c9b3d35a9332024d83ed23009fbe045861507d529048fe941572845a"
+hash = "4f018d347d47ff45a2320ff180f203bedd8078d966ad6ecb72de90ca6f3e65b1"
 metafile = true
 
 [[files]]
@@ -192,7 +192,7 @@ metafile = true
 
 [[files]]
 file = "mods/magiclib.pw.toml"
-hash = "b5b2bc24341b3be52e59c459181b28fbe2d313ed6988c0ca432ef6f27198138f"
+hash = "f86e4aefde4cba50c5e8239995cc7fd9ec35fcee2b8ebe6f49d04a64b74be232"
 metafile = true
 
 [[files]]

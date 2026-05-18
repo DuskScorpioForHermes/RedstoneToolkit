@@ -22,7 +22,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-igny-addition.pw.toml"
-hash = "e7d0298e1f9fd95f95c1616810f3f5d6a50cdeae9b27072e5bfc8f86336c3365"
+hash = "a1c0bc41f7748fcec5a45285f484129eea40b8b0c6b3fe049c08b8b18a3e6146"
 metafile = true
 
 [[files]]
@@ -52,7 +52,7 @@ metafile = true
 
 [[files]]
 file = "mods/cubes-without-borders.pw.toml"
-hash = "4c2810fc908a38360f7d3469265ec3e55f8bb28190f8437a5fe26a98a7e83e98"
+hash = "daf7df6cd49a4819e35c17d16d8979a3a4ad0d65254caa6de526b52362e5dbf3"
 metafile = true
 
 [[files]]
@@ -62,7 +62,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "3fc68588be2ab7e7ea35f40c985a11ad176481d08b2f2c82a68091d92551067a"
+hash = "b789470c49927c59afc41ebc98781ea8b3fbe6e76e8451ff6109d71e6a46f778"
 metafile = true
 
 [[files]]
@@ -97,7 +97,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "0ced0daa0ac278d63359bf47179d6dd5c51ed9306c5522dc6f49531cb9473812"
+hash = "5024cabd83e1bda6375fca6e5ef0bb3a53e6a3608601ddb49972a7840d223140"
 metafile = true
 
 [[files]]
@@ -117,7 +117,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix-mvus.pw.toml"
-hash = "f142fecbae015262b021e1cf94fe28bb0d13f0b0da0dba87edaaea19c715d016"
+hash = "8905a84ee09f7af2240b36ee63346c60dd397f2bc66588a235f84b37af14d36d"
 metafile = true
 
 [[files]]
@@ -187,7 +187,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "1d4c556fecc8346d7c04a69cde4abd902eb68e07b1ff6e8b0d1b09c795b28d68"
+hash = "5ecd5ace66ef819a38e3365c0b39b144be7aa3e55524c313f1b42c0efbe53d28"
 metafile = true
 
 [[files]]
@@ -232,7 +232,7 @@ metafile = true
 
 [[files]]
 file = "mods/zfastnoise.pw.toml"
-hash = "3fb615ae98be144ae86c6f48b61f748819a3486619f5d7ee61440ec6272f31cb"
+hash = "12d07eb37dbc8277dc82718218e75d298d1cf6a3bd7b97568cc2f2b02c1c868a"
 metafile = true
 
 [[files]]
