@@ -1,11 +1,13 @@
-from script.utils.constant import *
-from script.utils import util, logutil
-from pathlib import Path
-from semantic_version import Version
-from subprocess import Popen, PIPE, STDOUT
-
-import tomllib
 import shutil
+import tomllib
+from pathlib import Path
+from subprocess import Popen, STDOUT, PIPE
+from tempfile import TemporaryDirectory
+
+from semantic_version import Version
+
+from script.utils import util, logutil
+from script.utils.constant import *
 
 
 def run(versions: list[str], snapshot: bool):
@@ -18,9 +20,8 @@ def run(versions: list[str], snapshot: bool):
             c.create()
 
 
-
 class Create:
-    __arg = [
+    _arg = [
         PACKWIZ, "init",
         "--author", "Scorpio",
         "--modloader", "fabric", "--fabric-latest",
@@ -28,56 +29,53 @@ class Create:
     ]
 
     def __init__(self, version: str = "latest", snapshot: bool = False):
-        self.version = version
-        self.snapshot = snapshot
+        self._version = version
+        self._snapshot = snapshot
+        self._temp = TemporaryDirectory(dir=Path())
+        self._temp_path = Path(self._temp.name)
 
     def __enter__(self):
         return self
 
-    def __exit__(self, exc_type, exc_val, exc_tb) -> bool:
-        path = Path(".cache").joinpath("create")
-        shutil.rmtree(path)
-        util.try_remove_empty_cache()
-        return True
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        self._temp.__exit__(exc_type, exc_val, exc_tb)
 
     def create(self):
-        self.__parser_version()
+        self._parser_version()
         log = logutil.Logger("create").get_log()
-        path = Path(".cache").joinpath("create")
-        path.mkdir(parents=True, exist_ok=True)
         with Popen(
-            self.__arg,
-            cwd=path,
-            text=True,
-            stdout=PIPE,
-            stderr=STDOUT,
-            bufsize=1
-        ) as process:
-            for e in process.stdout:
+                self._arg,
+                cwd=self._temp_path,
+                text=True,
+                stdout=PIPE,
+                stderr=STDOUT,
+                bufsize=1
+        ) as popen:
+            for e in popen.stdout:
                 log.info(e.strip())
-        with open(path.joinpath("pack.toml"), "rb") as f:
+        with self._temp_path.joinpath("pack.toml").open("rb") as f:
             data = tomllib.load(f)
         mc_dir_ver: str = str(Version.coerce(data["versions"]["minecraft"]).truncate())
         for platform in [PlatForm.MODRINTH, PlatForm.CURSEFORGE]:
             copy_path = Path(platform).joinpath(mc_dir_ver)
             if not copy_path.exists():
-                shutil.copytree(path, copy_path)
+                shutil.copytree(self._temp_path, copy_path)
 
-    def __parser_version(self):
-        if self.version == "latest":
-            self.__arg.append("--latest")
-            if self.snapshot:
-                self.__arg.append("--snapshot")
+    def _parser_version(self):
+        if self._version == "latest":
+            self._arg.append("--latest")
+            if self._snapshot:
+                self._arg.append("--snapshot")
         else:
-            self.__arg.extend(["--mc-version", self.version])
+            self._arg.extend(["--mc-version", self._version])
 
-        ver_list: list[Version] = []
+        ver_list: list[Version] = list()
         for platform in [PlatForm.MODRINTH, PlatForm.CURSEFORGE]:
             dir_vers = util.get_dir_vers(platform)
             for dir_ver in dir_vers:
                 path = Path(platform).joinpath(dir_ver).joinpath("pack.toml")
-                with open(path, "rb") as f:
+                with path.open("rb") as f:
                     data = tomllib.load(f)
-                ver_list.append(Version(data["version"]))
+                ver_list.append(data["version"])
         max_ver = str(max(ver_list)) if ver_list else "0.1.0"
-        self.__arg.extend(["--version", max_ver])
+        self._arg.extend(["--version", max_ver])
