@@ -46,6 +46,11 @@ hash = "a762b2b4ef2fc25134312c1beccd76c71f921f569fa8b5f06485ef44c28cca86"
 metafile = true
 
 [[files]]
+file = "mods/crash-assistant.pw.toml"
+hash = "2463603d2e1263b45a3551d87c6590ba07f1cc0a883e16ef37109cec12eabe54"
+metafile = true
+
+[[files]]
 file = "mods/cubes-without-borders.pw.toml"
 hash = "a98f550c3686af790d3b9c5e9cf60b4f54426192a3d543bb24cff472b017d07d"
 metafile = true

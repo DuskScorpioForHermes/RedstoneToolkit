@@ -104,6 +104,8 @@ enabled_files:
     cf_slug: client-commands
   - mr_slug: commandkeys
     cf_slug: commandkeys
+  - mr_slug: crash-assistant
+    cf_slug: crash-assistant
   - mr_slug: hold-that-chunk
     cf_slug: hold-that-chunk
     version: "<1.21.0"

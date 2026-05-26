@@ -21,6 +21,11 @@ hash = "fcdd4267b12d96ab5b0bc4e41a50156ed9bf0b0fb7149dca357a7ba360d73a14"
 metafile = true
 
 [[files]]
+file = "mods/crash-assistant.pw.toml"
+hash = "a58fbbb741c3cb26dcfbd890f8963bb56e04f7cfab80632c0a468dd52e3262bf"
+metafile = true
+
+[[files]]
 file = "mods/fabric-api.pw.toml"
 hash = "113ebac69394a9f77f0472df4ee434d758c9fbf33e84a4a7d4744ff161ea76b3"
 metafile = true
