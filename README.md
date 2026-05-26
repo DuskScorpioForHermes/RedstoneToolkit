@@ -92,6 +92,7 @@ These mods are enabled by default and recommended to the user
 - [CarpetGUI](https://modrinth.com/mod/carpetgui) – A GUI for managing Carpet rules with favorites, rule groups, and a version-control-like history stack
 - [Client Commands](https://modrinth.com/mod/client-commands) - Adds lots of useful client-side commands
 - [CommandKeys](https://modrinth.com/mod/commandkeys) - A powerful command macro mod
+- [Crash Assistant](https://modrinth.com/mod/crash-assistant) – Opens a post-crash GUI to view, analyze, and upload crash reports and logs with one click, offering auto-fixes for common issues.
 - [Hold That Chunk](https://modrinth.com/mod/hold-that-chunk) - Keeps chunks in memory longer after they are out of render distance
 - [Hold That Chunk V2](https://modrinth.com/mod/hold-that-chunk-v2) - A re-implementation of Hold That Chunk for versions >=1.21 that keeps rendered chunks in memory longer
 - [Isometric Renders](https://modrinth.com/mod/isometric-renders) - Allows the creation high-resolution isometric images of items, blocks, and entities
