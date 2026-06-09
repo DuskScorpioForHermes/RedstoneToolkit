@@ -2,7 +2,27 @@ hash-format = "sha256"
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "6ac83c935dbbc327214d8fa28fbd26d3f72737da3521363daa54e6eb9a9f9d41"
+hash = "6e087a51e822a3a4a42014c9d9acb1d215bd5d2d4c551a505bc93b5c6d9ead4b"
+metafile = true
+
+[[files]]
+file = "mods/carpet-igny-addition.pw.toml"
+hash = "9740cc4b3037da091841563386cad1ed1729c25ff6356941ec07fcb099dac1ee"
+metafile = true
+
+[[files]]
+file = "mods/carpet-tis-addition.pw.toml"
+hash = "e63b8a9082b45ff409fcd421f6ae6c7708068be4bf538d7f25627ac58d2a3275"
+metafile = true
+
+[[files]]
+file = "mods/carpet.pw.toml"
+hash = "fcdd4267b12d96ab5b0bc4e41a50156ed9bf0b0fb7149dca357a7ba360d73a14"
+metafile = true
+
+[[files]]
+file = "mods/commandkeys.pw.toml"
+hash = "3c103b01bdf76b01494ca8a31ab1347b56907bd5e3e10c7e5dc9a1c91ee22d8a"
 metafile = true
 
 [[files]]
@@ -12,17 +32,22 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "aa5c77b2dda8f1ae2fb379f678beba35541b2843c370aa7274b05173be6dd96a"
+hash = "113ebac69394a9f77f0472df4ee434d758c9fbf33e84a4a7d4744ff161ea76b3"
 metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "ede945e96d7c293fad5cddf9b0cdbea25920d904803572cd0dab39713dd7dc34"
+hash = "96bad0b815557a3712e5ea2730df5cf7928387c8de7bf1903810bbcb82bd8b09"
 metafile = true
 
 [[files]]
 file = "mods/modernfix-mvus.pw.toml"
 hash = "7860b78acecb90a1c7fca845bee005e724bfe366c977553cd2735a95bf5acf94"
+metafile = true
+
+[[files]]
+file = "mods/modmenu.pw.toml"
+hash = "3ab2d8770984e1e080cc515dd9fa57491032010451144ff098e2ddfc307c0058"
 metafile = true
 
 [[files]]
@@ -32,5 +57,5 @@ metafile = true
 
 [[files]]
 file = "mods/zfastnoise.pw.toml"
-hash = "48cea1cadfddedfb09d8737d497bcb349b85374a496b2f99865ddd0f8d01232e"
+hash = "b29b987132f6ddffa0a80b4eb90bbf666d24820eb699ce7d9a300148598fb76a"
 metafile = true
