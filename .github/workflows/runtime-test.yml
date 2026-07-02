@@ -22,24 +22,14 @@ on:
           - 26.3.0
   pull_request:
     paths:
-      - "modrinth/**"
-      - "internal-files/**"
-      - "tools/packwiz"
-      - "tools/packwiz-installer-bootstrap.jar"
-      - "tools/packwiz-installer.jar"
-      - ".github/workflows/runtime-test.yml"
-      - ".github/workflows/script/runtime-test-metadata.py"
+      - "modrinth/**/pack.toml"
+      - "curseforge/**/pack.toml"
   push:
     branches:
       - main
     paths:
-      - "modrinth/**"
-      - "internal-files/**"
-      - "tools/packwiz"
-      - "tools/packwiz-installer-bootstrap.jar"
-      - "tools/packwiz-installer.jar"
-      - ".github/workflows/runtime-test.yml"
-      - ".github/workflows/script/runtime-test-metadata.py"
+      - "modrinth/**/pack.toml"
+      - "curseforge/**/pack.toml"
 
 jobs:
   build-matrix:
