@@ -2,25 +2,15 @@ hash-format = "sha256"
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "a563249a91ce3f685fd4ee05354e7f837571002644d4fd6aa6aa46044f1a25ca"
+hash = "d59325658ea5dfd44d97d9480cbdcc9999cd5370d4e4f3e67d77c5a9980afa14"
 metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "633a26084f7e356d80361c7dc5deb2a60bc0c5f32f287a319e66ed3b2ef3dec0"
-metafile = true
-
-[[files]]
-file = "mods/modernfix-mvus.pw.toml"
-hash = "d24165666316cb882d0769bed0d11fe400731f41949992080afc4bd8b6ad9ad4"
-metafile = true
-
-[[files]]
-file = "mods/yacl.pw.toml"
-hash = "5dab42d7f6d68d43e18e2d6880909ad6256f0577aef2ad30e953f3c0fb69e725"
+hash = "e5bd4f8166013303788a2b98d879c66dd82de9c980c6caa24b5cd0fab6a754b0"
 metafile = true
 
 [[files]]
 file = "mods/zfastnoise.pw.toml"
-hash = "71440356b7b06da9034d3dedecb47245460e0993fbaac938a77aae920c0bec55"
+hash = "f00174459fbd6453d56a9d9c30e257f48b7adfaffa68886dec541b16847de45a"
 metafile = true

@@ -1,7 +1,7 @@
 ## News
 
 - Added 26.2
-- Added 26.3-snapshot-1
+- Added 26.3-snapshot-2
 
 ## Changes
 
